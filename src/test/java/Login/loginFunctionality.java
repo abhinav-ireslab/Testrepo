@@ -9,7 +9,8 @@ import org.testng.annotations.Test;
 
 public class loginFunctionality 
 {
-
+	
+	WebDriver driver = new FirefoxDriver();
 	@Test
 	public void Login_Scenarioo()
 	{
@@ -21,6 +22,15 @@ public class loginFunctionality
 		driver.findElement(By.id("txtUsername")).sendKeys("admin");
 		driver.findElement(By.name("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.name("Submit")).click();
+
 	}
 
+	@Test
+	public void title() {
+		
+		String wb = driver.getTitle();
+		System.out.println(wb);
+		
+	}
+	
 }
