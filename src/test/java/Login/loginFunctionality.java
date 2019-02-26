@@ -1,5 +1,7 @@
 package Login;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -10,7 +12,7 @@ import org.testng.annotations.Test;
 public class loginFunctionality 
 {
 	
-	WebDriver driver = new FirefoxDriver();
+	
 	@Test
 	public void Login_Scenarioo()
 	{
@@ -23,14 +25,7 @@ public class loginFunctionality
 		driver.findElement(By.name("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.name("Submit")).click();
 
+		System.out.println("Title of current window: "+driver.getTitle());
 	}
 
-	@Test
-	public void title() {
-		
-		String wb = driver.getTitle();
-		System.out.println(wb);
-		
-	}
-	
 }

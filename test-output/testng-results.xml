@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20543" started-at="2019-02-25T12:04:50Z" finished-at="2019-02-25T12:05:10Z">
+  <suite name="Default suite" duration-ms="12834" started-at="2019-02-26T07:16:37Z" finished-at="2019-02-26T07:16:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20543" started-at="2019-02-25T12:04:50Z" finished-at="2019-02-25T12:05:10Z">
+    <test name="Default test" duration-ms="12834" started-at="2019-02-26T07:16:37Z" finished-at="2019-02-26T07:16:50Z">
       <class name="Login.loginFunctionality">
-        <test-method status="PASS" signature="Login_Scenarioo()[pri:0, instance:Login.loginFunctionality@6a4f787b]" name="Login_Scenarioo" duration-ms="20487" started-at="2019-02-25T12:04:50Z" finished-at="2019-02-25T12:05:10Z">
+        <test-method status="PASS" signature="Login_Scenarioo()[pri:0, instance:Login.loginFunctionality@6a4f787b]" name="Login_Scenarioo" duration-ms="12797" started-at="2019-02-26T07:16:37Z" finished-at="2019-02-26T07:16:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_Scenarioo -->
